@@ -4,13 +4,15 @@ This example demonstrates how to create and manage stateful sessions in the Agen
 
 ## What Are Sessions in ADK?
 
-Sessions in ADK provide a way to:
+In ADK, sessions help your agent remember things—like who the user is, what they’ve said before, and what they care about. This means:
 
-1. **Maintain State**: Store and access user data, preferences, and other information between interactions
-2. **Track Conversation History**: Automatically record and retrieve message history
-3. **Personalize Responses**: Use stored information to create more contextual and personalized agent experiences
+1. Staying consistent: The agent can hold onto important info like user preferences or previous answers.
 
-Unlike simple conversational agents that forget previous interactions, stateful agents can build relationships with users over time by remembering important details and preferences.
+2. Following the conversation: It keeps track of the back-and-forth, so the agent doesn’t lose the thread.
+
+3. Getting personal: With context, responses feel more thoughtful and tailored to each user.
+
+Instead of starting from scratch every time, your agent builds a memory, making interactions feel more like a real relationship than a one-off chat.
 
 ## Example Overview
 
