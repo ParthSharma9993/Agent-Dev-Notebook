@@ -17,7 +17,7 @@ initial_state = {
     "user_preferences": """
         I like to play Basketball, Football, and Badminton.
         My favorite food is Italian.
-        My favorite TV show is Prison Break.
+        My favorite TV show is Ozark.
     """,
 }
 
@@ -41,7 +41,7 @@ runner = Runner(
 )
 
 new_message = types.Content(
-    role="user", parts=[types.Part(text="What is Brandon's favorite TV show?")]
+    role="user", parts=[types.Part(text="What is Parth's favorite TV show?")]
 )
 
 for event in runner.run(
