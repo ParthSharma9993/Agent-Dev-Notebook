@@ -41,7 +41,7 @@ runner = Runner(
 )
 
 new_message = types.Content(
-    role="user", parts=[types.Part(text="What is Parth's favorite TV show?")]
+    role="user", parts= [types.Part(text="What is Parth's favorite TV show?")]
 )
 
 for event in runner.run(
