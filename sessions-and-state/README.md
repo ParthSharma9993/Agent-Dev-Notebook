@@ -87,9 +87,9 @@ Sessions are created with an initial state containing user information:
 initial_state = {
     "user_name": "Parth Sharma",
     "user_preferences": """
-        I like to play Basketball, Badminton, and Tennis.
+        I like to play Basketball, Football, and Badminton.
         My favorite food is Italian.
-        My favorite TV show is Game of Thrones.
+        My favorite TV show is Ozark.
     """,
 }
 ```
